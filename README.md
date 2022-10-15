@@ -29,4 +29,11 @@ It's called **Feature Scaling**.
 * Feature scaling is usually not required with tree-based models (e.g. Random Forest) since they can handle varying features.
  <br>
 ---
+---
+### ROC and AUC:
+* Points to Remember:
+    1. ROC curves and AUC metrics are evaluation metrics for binary classification models (a model which predicts one thing or another, such as heart disease or not).
+    2. The ROC curve compares the true positive rate (tpr) versus the false positive rate (fpr) at different classification thresholds.
+    3. The AUC metric tells you how well your model is at choosing between classes (for example, how well it is at deciding whether someone has heart disease or not). A perfect model will get an AUC score of 1.
 
+---
